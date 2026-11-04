@@ -11,4 +11,4 @@ billboard.AlwaysOnTop = true
 billboard.Size = UDim2.fromOffset(200, 50)
 
 text.Text = "Hello, I am part."
-text.Size = Udim2.fromScale(1, 1)
+text.Size = UDim2.fromScale(1, 1)
