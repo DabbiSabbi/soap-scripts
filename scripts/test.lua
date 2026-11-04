@@ -1,1 +1,5 @@
-game.Players
+game.Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function(character)
+        character:WaitForChild("Head").BrickColor = BrickColor.new("Bright blue")
+    end)
+end)
