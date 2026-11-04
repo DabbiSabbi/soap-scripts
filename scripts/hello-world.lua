@@ -1,9 +1,9 @@
-local talk = game:GetService("BillboardGui")
+local billboard = Instance.new("BillboardGui")
 
 local part = Instance.new("Part")
 
 part.Anchored = true
 part.Parent = workspace
 
-Talk.Adornee : part
-Talk.AlwaysOnTop : True
+billboard.Adornee = part
+billboard.AlwaysOnTop = true
