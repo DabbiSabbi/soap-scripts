@@ -5,4 +5,5 @@ local part = Instance.new("Part")
 part.Anchored = true
 part.Parent = workspace
 
-Talk:Active
+Talk.Adornee : part
+Talk.AlwaysOnTop : True
